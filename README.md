@@ -19,7 +19,7 @@ You probably only need the left hand as well, so delete the hand_r under the Rig
 
 ![Godot_v4 2 1-stable_win64_lug62qWBcO](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/bff996ee-6080-4d89-b792-bd258bcf9ff1)
 
-Now you are ready to save the OpenXR joints, run the project and try to pose your hand in a similar pose your mesh is in. Don't worry, it doesn't have to be perfect. Try to position the hand with the palm facing down, as that makes it easier to rig later in Blender.
+Now you are ready to save the OpenXR joints, run the project and try to pose your hand in a similar pose your mesh is in. Don't worry, it doesn't have to be perfect. Try to position the hand with the palm facing down, as that makes it easier to rig later in Blender. Press Enter key to save a snapshot.
 
 ![image](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/4954b3e8-4020-4bc4-a19c-fd98b91d4a94)
 
