@@ -1,2 +1,2 @@
-# Blender_OpenXR_Hand_Skinning
+# Blender OpenXR Hand Rigging
  How to rig VR hand meshes in blender for OpenXR
