@@ -49,9 +49,9 @@ Now we move to the skinning part. Select the hand mesh and enter Weight Paint mo
 
 ![image](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/1d0ad438-ef7f-4118-b26b-00192918badb)
 
-Ctrl-click Select all the bones apart from the Palm_L bone like so:
+Ctrl-click Select all the bones apart from the Wrist_L bone like so:
 
-![blender_Z1ZpQsraRv](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/c8bf199f-2dd5-428d-a979-89576c227f4b)
+![blender_7Yk8iuxVuO](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/afe40fa5-1124-4869-bcad-18c70af56531)
 
 Go to Weights and Assign Automatic from Bones:
 
