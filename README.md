@@ -43,7 +43,7 @@ Once this step is done, we can bring in the hand mesh. Position and orient it as
 After the hand mesh is in place and parented with the Armature, start repositioning the individual bones into the correct position in the hand. Since you already have setup the bones and aligned them correctly, it's just a matter of moving them around slightly, especially if your captured hand pose resembles the actual hand mesh pose. 
 You should now have all the bones placed in the hand and it should hopefully look something like this:
 
-![blender_v2DBPJUuSQ](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/31652ebb-d75b-419a-92a2-bafd834ebbf0)
+![blender_8qhXd1RjtD](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/552850c3-73cc-4b58-bef4-b99e9d8518b6)
 
 Now we move to the skinning part. Select the hand mesh and enter Weight Paint mode. Head over to the Data tab and delete all the vertex groups.
 
