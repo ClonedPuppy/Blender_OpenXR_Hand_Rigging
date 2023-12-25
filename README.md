@@ -74,11 +74,11 @@ Before gltf export, press "Store Bone Roll angles", this will store all the corr
 
 Proceed with the export, make sure you hide the OpenXR reference stuff. There are no other options in the gltf exporter we need to adjust.
 
-Check out your hand in Godot, it should be fairly good, but there will always be areas that could be fixed. The hand I used in the example project are completely auto weighted, without any manual adjustments. And if you look closely at some of the knuckles, they require a bit of work to not looks so hard and angular. Luckily you can easily revert back to Blenders workflow, with the bones aligned in the correct way. Press "Rotate back" and the bones will snap back to their initial position and be connected up as they were originally.
+Check out your hand in Godot, it should be fairly good, but there will always be areas that could be fixed. The hand I used in the example project is completely auto weighted, without any manual adjustments. And if you look closely at some of the knuckles, they require a bit of work to not looks so hard and angular. Luckily you can easily revert back to Blenders workflow, with the bones aligned in the correct way. Press "Rotate back" and the bones will snap back to their initial position and be connected up as they were originally.
 Now you can flip back and forth between "Rotate" and "Rotate back" whenever you need to adjust bone positions, paint weights or export.
 
 Be mindful that there is no undo when using the script, or at least not a very good one. So save your blender project before you start with the export process. Also, if you close Blender, or it crashes... then you will need to do the rotate steps all over again.
 
-As for creating the right hand, it's basically a mirror of the Armature, and then some manual adjustments on the thumb and pinky bones as they usually goa bit wonky. MIrror over the openxr reference as well so you have a something to refer to when adjusting back the axes. You also need to flip the mesh faces etc.. and all the usual stuff you need to do after a mirror operation. 
+As for creating the right hand, it's basically a mirror of the Armature, and then some manual adjustments on the thumb and pinky bones as they usually go a bit wonky. Mirror over the OpenXR reference as well so you have a something to refer to when adjusting back the axes. You also need to flip the mesh faces etc.. and all the usual stuff you need to do after a mirror operation. 
 
 
