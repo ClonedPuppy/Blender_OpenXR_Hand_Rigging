@@ -33,10 +33,11 @@ Position and orient the reference joints, I prefer to place the wrist joint at a
 
 ![blender_Kx3iehLSFY](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/86100050-b264-47a2-b992-b36a27a237df)
 
-Next step is to prep the bones. Start at the wrist and lay them out following the OpenXR joints. Be careful to align the x,y,z axes, but remember that Blender is Z up, so align the bone's Z axis with the OpenXR joints green axis (don't forget you also need to use the bone's roll angle for some bones). Additionally, you will also need to add a tip bone. This bone is not really used for the skinning, but is necessary to add so that OpenXR can pick it up later in Godot. Don't forget to name your bones as well! 
+Next step is to prep the bones. Start with the Palm bone and lay them out following the OpenXR joints. The MetaCarpal bones and the Wrist bone should be parented to the Palm bone. Be careful to align the x,y,z axes, but remember that Blender is Z up, so align the bone's Z axis with the OpenXR joints green axis (don't forget you also need to use the bone's roll angle for some bones). Additionally, you will also need to add a tip bone. This bone is not really used for the skinning, but is necessary to add so that OpenXR can pick it up later in Godot. Don't forget to name your bones as well! 
 Here is my progress after a few bones:
 
-![blender_clIiNz31jq](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/66e06e9d-2656-420f-b7a0-bb1f5639e4e3)
+![blender_dujNlQgOGD](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/fc2f351d-ae05-4d92-bed7-31247a2e8156)
+
 
 Once this step is done, we can bring in the hand mesh. Position and orient it as you see fit, try to get the three inner fingers and palm to match as well as you can, the thumb and pinky will usually need some adjustments.
 After the hand mesh is in place and parented with the Armature, start repositioning the individual bones into the correct position in the hand. Since you already have setup the bones and aligned them correctly, it's just a matter of moving them around slightly, especially if your captured hand pose resembles the actual hand mesh pose. 
