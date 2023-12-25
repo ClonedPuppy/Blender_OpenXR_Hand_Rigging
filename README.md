@@ -74,7 +74,8 @@ After this, you will be in Bone edit mode, make sure you set your transform and 
 
 Press a to SELECT ALL, then r for ROTATE, x for the X axis and then 90 for the amount of degrees (and Enter key to confirm). Bones should now look like this:
 
-![blender_uMk5fn7xvR](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/0d4ffb00-7350-4499-82fc-f7e163c461ad)
+![blender_LVvULlG1eY](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/d0395eef-1a1a-44b9-8440-17302178c485)
+
 
 Before gltf export, press "Store Bone Roll angles", this will store all the correct values.
 
