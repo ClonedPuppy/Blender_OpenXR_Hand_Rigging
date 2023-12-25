@@ -14,7 +14,7 @@ In the Godot project, there is a script attached to the Main node, which dumps t
 
 But before you do this, switch on the "Show Joint Axes" in the skeleton node. 
 
-![Godot_v4 2 1-stable_win64_dMPFJMZo6r](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/827cfb93-d376-459d-abc4-25b6ee9606f4)
+![Godot_v4 2 1-stable_win64_KIYF3iskyz](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/0d03c068-0e17-49a7-baca-5da8d42d3767)
 
 You probably only need the left hand as well, so delete the hand_r under the RightHand node. Your node tree should look something like this:
 
