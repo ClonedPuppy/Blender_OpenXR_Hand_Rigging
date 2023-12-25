@@ -20,7 +20,7 @@ You probably only need the left hand as well, so delete the hand_r under the Rig
 
 Now you are ready to save the OpenXR joints, run the project and try to pose your hand in as similar pose your mesh is in. Don't worry, it doesn't have to be perfect. Try to position the hand with the palm facing down, as that makes it easier to rig later in Blender.
 
-![Godot_v4 2 1-stable_win64_0pl215lwpT](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/9e087d87-aa41-45d7-ad9b-eb22c2768356)
+![image](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/4954b3e8-4020-4bc4-a19c-fd98b91d4a94)
 
 Import the savedSnapshot.glb in Blender and you will see a bunch of stuff. Delete everything apart from the _MultiMeshInstance3D (unparent it from the other node by holding shift and drag it to the root. Your blender scene tree should look similar to this:
 
