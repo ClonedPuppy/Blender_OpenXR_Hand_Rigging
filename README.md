@@ -39,7 +39,10 @@ Here is my progress after a few bones:
 ![blender_dujNlQgOGD](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/fc2f351d-ae05-4d92-bed7-31247a2e8156)
 
 
-Once this step is done, we can bring in the hand mesh. Position and orient it as you see fit, try to get the three inner fingers and palm to match as well as you can, the thumb and pinky will usually need some adjustments.
+Once this step is done, we can bring in the hand mesh. Position and orient it as you see fit, try to get the three inner fingers and palm to match as well as you can, the thumb and pinky will usually need some adjustments. Here is how my mesh lined up with the bones I had laid out. 
+
+![blender_ORJty84OXU](https://github.com/ClonedPuppy/Blender_OpenXR_Hand_Rigging/assets/1387713/97119cb5-337e-4042-8061-6ad2354eaee5)
+
 After the hand mesh is in place and parented with the Armature, start repositioning the individual bones into the correct position in the hand. Since you already have setup the bones and aligned them correctly, it's just a matter of moving them around slightly, especially if your captured hand pose resembles the actual hand mesh pose. 
 You should now have all the bones placed in the hand and it should hopefully look something like this:
 
